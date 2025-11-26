@@ -1,0 +1,7 @@
+{
+  "name": "Open Scan",
+  "description": "A world-class, 100% free document scanner running entirely in the browser. Features on-device image enhancement and optional AI-powered OCR and classification.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

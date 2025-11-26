@@ -1,0 +1,27 @@
+{
+  "short_name": "Open Scan",
+  "name": "Open Scan: AI Scanner",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#ffffff",
+  "background_color": "#f3f4f6",
+  "categories": ["productivity", "utilities", "business"],
+  "description": "Free document scanner with on-device AI enhancement, OCR, and PDF export.",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%232563EB' rx='100'/%3E%3Cpath fill='white' d='M150 130h212v60H150zm0 100h212v60H150zm0 100h140v60H150z'/%3E%3C/svg%3E",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%232563EB' rx='100'/%3E%3Cpath fill='white' d='M150 130h212v60H150zm0 100h212v60H150zm0 100h140v60H150z'/%3E%3C/svg%3E",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
