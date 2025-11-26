@@ -1,9 +1,9 @@
 {
   "short_name": "Open Scan",
   "name": "Open Scan: AI Scanner",
-  "id": "/",
-  "start_url": "/",
-  "scope": "/",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#ffffff",

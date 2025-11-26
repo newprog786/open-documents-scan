@@ -1,10 +1,11 @@
 // This service worker ensures the app works offline by caching the app shell AND external dependencies.
 
 const CACHE_NAME = 'openscan-v1';
+// NOTE: We use relative paths ('./') so this works on GitHub Pages sub-directories.
 const URLS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
+  './',
+  './index.html',
+  './manifest.json',
   // Critical Styles & Scripts
   'https://cdn.tailwindcss.com',
   'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
@@ -51,9 +52,9 @@ self.addEventListener('fetch', (event: any) => {
       }).catch(() => {
         // Network failed (offline)
         // If we have a cached response, it was returned above.
-        // If not, and it's a navigation request, return index.html
+        // If not, and it's a navigation request, try returning index.html from cache
         if (event.request.mode === 'navigate') {
-          return caches.match('/index.html');
+          return caches.match('./index.html');
         }
       });
 

@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.openscan.app",
+      "sha256_cert_fingerprints": ["REPLACE_THIS_WITH_THE_JSON_OUTPUT_FROM_BUBBLEWRAP_CLI_DURING_BUILD_PROCESS"]
+    }
+  }
+]
